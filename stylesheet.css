@@ -1,0 +1,85 @@
+body{
+    font-size: 25px;
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass;
+}
+.box{
+    /* hsl(213, 19%, 18%) */
+    /* background-color: hsl(213, 19%, 18%); */
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(hsl(213, 19%, 18%) ,hsl(216, 12%, 8%));
+    box-shadow: hsl(213, 19%, 18%) 4px 4px;
+    color: hsl(217, 12%, 63%);
+    width:400px;
+    height:360px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    padding:30px;
+    box-sizing: content-box;
+}
+.box .star{
+    display: inline;
+    width: 15px;
+    padding:10px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    /* border: 1px solid white; */
+    margin:10px 0px 10px 10px;
+}
+.box .heading{
+    font-weight: 700;
+    margin: 20px 0px 0px 10px;
+    font-size: 32px;
+    color: white;
+}
+.box .content{
+    font-weight: 400;
+    margin:10px 10px;
+    font-size: 18px;
+}
+.box .rating{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin:20px 0px;
+}
+.box .rate{
+    /* border: solid white 1px; */
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding:10px;
+    text-align: center;
+}
+button{
+    margin: 10px;
+    height: 45px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-size: 17px;
+}
+button:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.box .rate:hover{
+    background-color:hsl(216, 12%, 54%);
+    transition: 0.5s;
+    color: white;
+    cursor:pointer;
+}
+.box .rate:active{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
