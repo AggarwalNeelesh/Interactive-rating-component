@@ -8,8 +8,8 @@ body{
     /* background-color: hsl(213, 19%, 18%); */
     display: flex;
     flex-direction: column;
-    background: linear-gradient(hsl(213, 19%, 18%) ,hsl(216, 12%, 8%));
-    box-shadow: hsl(213, 19%, 18%) 4px 4px;
+    background: linear-gradient(150deg,hsl(213, 19%, 18%,0.8),hsl(213, 19%, 18%, 0.9));
+    /* box-shadow: hsl(213, 19%, 18%) 4px 4px; */
     color: hsl(217, 12%, 63%);
     width:400px;
     height:360px;
